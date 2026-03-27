@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Iyazuddin | Frontend Developer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #0f172a, #020617);
+  color: #e2e8f0;
+}
+
+header {
+  text-align: center;
+  padding: 80px 20px;
+  animation: fadeIn 1.2s ease-in;
+}
+
+h1 {
+  font-size: 3rem;
+  background: linear-gradient(90deg, #38bdf8, #818cf8);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+header p {
+  margin: 10px 0;
+  color: #94a3b8;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 20px;
+  margin: 10px;
+  background: linear-gradient(90deg, #38bdf8, #818cf8);
+  color: #000;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #38bdf8;
+}
+
+section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #38bdf8;
+}
+
+.card {
+  background: rgba(30, 41, 59, 0.6);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(56,189,248,0.3);
+}
+
+a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #94a3b8;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0; transform: translateY(20px);}
+  to {opacity: 1; transform: translateY(0);}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Iyazuddin</h1>
+  <p>Frontend Developer | BCA Student</p>
+  <p>Passionate frontend developer focused on building clean, responsive, and interactive web applications using modern technologies.</p>
+
+  <div>
+    <a href="https://github.com/Iyazuddin" target="_blank" class="btn">GitHub</a>
+    <a href="https://www.linkedin.com/in/iyaz-uddin-99536834b" target="_blank" class="btn">LinkedIn</a>
+    <a href="#" class="btn">Download Resume</a>
+  </div>
+</header>
+
+<section>
+  <h2>Skills</h2>
+  <div class="card">
+    <p><strong>Frontend:</strong> HTML, CSS, JavaScript, React</p>
+    <p><strong>Tools:</strong> Git, GitHub</p>
+    <p><strong>Other:</strong> Python, SQL</p>
+  </div>
+</section>
+
+<section>
+  <h2>Projects</h2>
+
+  <!-- Todo App -->
+  <div class="card">
+    <h3>Todo App</h3>
+    <p>
+      A simple and user-friendly task management application that allows users to add, delete, and mark tasks as completed. 
+      Designed with a clean interface to improve productivity and task organization.
+    </p>
+    <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+    <a href="https://iyaz-todoapp.netlify.app/" target="_blank">Live</a> |
+    <a href="https://github.com/Iyazuddin/TodoApp" target="_blank">Code</a>
+  </div>
+
+  <!-- Drum Kit -->
+  <div class="card">
+    <h3>Drum Kit Web App</h3>
+    <p>
+      An interactive drum kit application that plays different drum sounds based on keyboard and mouse inputs. 
+      Includes real-time audio feedback and engaging UI interactions for a fun user experience.
+    </p>
+    <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+    <a href="https://iyaz-drumkit.netlify.app/" target="_blank">Live</a> |
+    <a href="https://github.com/Iyazuddin/Drum_Kit" target="_blank">Code</a>
+  </div>
+
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <div class="card">
+    <p>Email: <a href="mailto:ayazuddin31j@gmail.com">ayazuddin31j@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/Iyazuddin" target="_blank">github.com/Iyazuddin</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/iyaz-uddin-99536834b" target="_blank">linkedin.com/in/iyaz-uddin-99536834b</a></p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Iyazuddin</p>
+</footer>
+
+</body>
+</html>
